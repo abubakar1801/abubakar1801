@@ -10,14 +10,21 @@
     font-family:'Poppins', sans-serif ;
 }
 :root{
+    /*
     --bg-color: #081b29;
     --second-bg-color: #112e42;
     --text-color: #ededed;
     --main-color: #00abf0;
+*/
+    --bg-color: #eee5da;
+    --second-bg-color: #f3e1ce;
+    --text-color: #191265;
+    --main-color: #ff975a;
 }
+    }
 
 b {
-    color: #00abf0;
+    color: #191265;
 }
 
 html{
