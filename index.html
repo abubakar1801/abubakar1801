@@ -75,6 +75,24 @@
                 <a href="#skills" class="nav-link text-brand-textMuted hover:text-white transition-colors">Skills</a>
             </nav>
             
+            <!-- <label class="relative inline-flex items-center cursor-pointer group ml-4" title="Toggle Light/Dark Mode">
+                <input type="checkbox" id="theme-toggle" class="sr-only peer" checked>
+                
+                <div class="w-14 h-8 rounded-full border transition-colors duration-500 ease-in-out
+                            bg-[#eee5da] border-[#191265]/20 
+                            peer-checked:bg-[#16161a] peer-checked:border-white/10">
+                </div>
+                
+                <div class="absolute inset-0 w-14 h-8 flex items-center justify-between px-2 pointer-events-none">
+                    <i class='bx bxs-moon text-[#99a1b3] text-sm opacity-0 peer-checked:opacity-100 transition-opacity duration-300'></i>
+                    <i class='bx bxs-sun text-[#ff975a] text-sm opacity-100 peer-checked:opacity-0 transition-opacity duration-300'></i>
+                </div>
+                
+                <div class="absolute left-1 top-1 w-6 h-6 rounded-full flex items-center justify-center shadow-md transition-all duration-500 ease-[cubic-bezier(0.68,-0.55,0.27,1.55)]
+                            bg-[#191265] peer-checked:bg-[#991b1b] peer-checked:translate-x-6">
+                </div>
+            </label> -->
+
             <div class="hidden md:block">
                 <a href="#contact" class="btn-fill px-6 py-2.5 text-sm font-medium border border-brand-accent text-white rounded-lg transition-all">Let's Talk</a>
             </div>
@@ -379,6 +397,24 @@
             };
             loopDeleting();
         }
+
+    // const themeToggle = document.getElementById('theme-toggle');
+    // const body = document.body;
+
+    // // Listen for toggle clicks
+    // themeToggle.addEventListener('change', (e) => {
+    //     if (e.target.checked) {
+    //         // Switch to Dark Mode (Profile 02 colors)
+    //         body.style.backgroundColor = '#0f0f11';
+    //         body.style.color = '#f3f4f6';
+    //         document.documentElement.style.setProperty('--brand-accent', '#991b1b');
+    //     } else {
+    //         // Switch to Light Mode (Profile 01 colors)
+    //         body.style.backgroundColor = '#eee5da'; 
+    //         body.style.color = '#191265';
+    //         document.documentElement.style.setProperty('--brand-accent', '#ff975a');
+    //     }
+    // });
 
         // Start typing effect
         typingEffect();
