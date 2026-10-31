@@ -189,6 +189,16 @@
 
       <!-- Mode Selector & Controls -->
       <div class="flex flex-wrap items-center gap-2 sm:gap-3">
+
+        <div id="labModeSelectorGroup" class="bg-brand-bg p-1 rounded-xl flex items-center border border-white/10 text-xs font-medium">
+          <button id="modeRuleBtn" class="px-3.5 py-1.5 rounded-lg bg-brand-accent text-white shadow-xs font-semibold transition-all">
+            1. Rule-Based
+          </button>
+          <button id="modeLlmBtn" class="px-3.5 py-1.5 rounded-lg text-brand-textMuted hover:text-white transition-all">
+            2. LLM Engine
+          </button>
+        </div>
+
         <!-- Main View Switcher: Lab vs Upgraded Portfolio -->
         <div class="bg-brand-bg p-1 rounded-xl flex items-center border border-white/10 text-xs font-medium">
           <button id="viewLabBtn" class="px-3 py-1.5 rounded-lg bg-white/10 text-white font-semibold transition-all flex items-center gap-1">
@@ -199,17 +209,9 @@
           </button>
         </div>
 
-        <div id="labModeSelectorGroup" class="bg-brand-bg p-1 rounded-xl flex items-center border border-white/10 text-xs font-medium">
-          <button id="modeRuleBtn" class="px-3.5 py-1.5 rounded-lg bg-brand-accent text-white shadow-xs font-semibold transition-all">
-            1. Rule-Based
-          </button>
-          <button id="modeLlmBtn" class="px-3.5 py-1.5 rounded-lg text-brand-textMuted hover:text-white transition-all">
-            2. LLM Engine
-          </button>
-        </div>
         <button id="openCodeModalBtn" class="btn-fill px-4 py-2 rounded-xl bg-brand-card border border-brand-accent text-white text-xs font-medium transition-all flex items-center gap-1.5">
-          <i class="bx bx-code-alt text-base"></i>
-          <span>View Code</span>
+          <!-- <i class="bx bx-code-alt text-base"></i>
+          <span>View Code</span> -->
         </button>
       </div>
     </div>
